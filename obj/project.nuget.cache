@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "dgSpecHash": "CR3QDPk9bwWzg7glNX2DbuyuwzVyD4gPTfRaG13jdjk05aLj95l/YjQfEif0AKcFg+2OW2v6CdVK9vfMa5ly2Q==",
+  "success": false,
+  "projectFilePath": "/home/kylesams/Documents/Files/160/Backend/TransalationProject/Translation.Web/Translation.Web.csproj",
+  "expectedPackageFiles": [
+    "/home/kylesams/.nuget/packages/microsoft.data.sqlite.core/8.0.3/microsoft.data.sqlite.core.8.0.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.2/microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.2/microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.3/microsoft.entityframeworkcore.relational.8.0.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.3/microsoft.entityframeworkcore.sqlite.8.0.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.3/microsoft.entityframeworkcore.sqlite.core.8.0.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/newtonsoft.json/8.0.1/newtonsoft.json.8.0.1.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.netcore.app.ref/8.0.3/microsoft.netcore.app.ref.8.0.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512",
+    "/home/kylesams/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.3/microsoft.netcore.app.host.linux-x64.8.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Error",
+      "message": "Warning As Error: Translation.Web depends on Newtonsoft.Json (>= 8.0.0) but Newtonsoft.Json 8.0.0 was not found. An approximate best match of Newtonsoft.Json 8.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Error",
+      "message": "Warning As Error: Package 'Newtonsoft.Json' 8.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Error",
+      "message": "Warning As Error: Package 'Newtonsoft.Json 8.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 8.0.3 to 8.0.2. Reference the package directly from the project to select a different version. \n Translation.Web -> Microsoft.EntityFrameworkCore.Sqlite 8.0.3 -> Microsoft.EntityFrameworkCore.Sqlite.Core 8.0.3 -> Microsoft.EntityFrameworkCore.Relational 8.0.3 -> Microsoft.EntityFrameworkCore (>= 8.0.3) \n Translation.Web -> Microsoft.EntityFrameworkCore (>= 8.0.2)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

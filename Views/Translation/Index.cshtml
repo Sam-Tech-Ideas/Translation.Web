@@ -1,0 +1,35 @@
+ 
+ 
+ 
+ 
+ 
+ @* <!-- Index.cshtml -->
+@using (Html.BeginForm("Translate", "Translation", FormMethod.Post, new { id = "translationForm" }))
+{
+    @Html.TextAreaFor(model => model.text, new { placeholder = "Enter text to translate" })
+    <button type="submit">Translate</button>
+}
+
+<div id="translatedText"></div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $('#translationForm').submit(function (event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '/Translation/Translate',
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        $('#translatedText').text(response.translatedText);
+                    },
+                    error: function () {
+                        // Handle errors
+                        $('#translatedText').text('Translation failed');
+                    }
+                });
+            });
+        });
+    </script>
+}  *@
